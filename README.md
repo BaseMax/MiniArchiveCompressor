@@ -2,6 +2,12 @@
 
 C++  software to compress and archive files with Qt based UI. (Currently user-interface ready)
 
+![Mini Cpp Archive Compressor](screen1.jpg)
+
+![Mini C++ Archive Compressor](screen2.jpg)
+
+![Mini C++ Archive Compressor](screen3.jpg)
+
 ## Similar Projects
 
 - https://github.com/BaseMax/MiniPHPArchiveCompressor
