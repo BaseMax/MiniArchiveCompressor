@@ -6,9 +6,9 @@ C++  software to compress and archive files with Qt based UI. (Currently user-in
 
 ![Demo - Mini Qml Archive Compressor](demo.gif)
 
-![Mini C++ Archive Compressor](screen2.jpg)
+![Mini C++ Archive Compressor](screen2.png)
 
-![Mini C++ Archive Compressor](screen3.jpg)
+![Mini C++ Archive Compressor](screen3.png)
 
 Project not complete and we need to a good compression algorithm... (Development)
 
