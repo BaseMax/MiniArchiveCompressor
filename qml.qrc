@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>MyButton.qml</file>
+        <file>pic/upload.svg</file>
+        <file>pic/pdf.png</file>
+        <file>font/fontello.ttf</file>
+        <file>MyToolBar.qml</file>
+        <file>MainPage.qml</file>
+        <file>SecondPage.qml</file>
+        <file>pic/Group 10.svg</file>
+        <file>StaticProgressBar.qml</file>
+        <file>DynamicProgressBar.qml</file>
+        <file>FileDelegate.qml</file>
+        <file>FileView.qml</file>
+        <file>pic/drop.png</file>
+    </qresource>
+</RCC>
