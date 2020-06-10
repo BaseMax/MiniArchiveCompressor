@@ -28,7 +28,7 @@ Tested on: Qt 5.12, 5.14 with Qt Creator 4.12.0
 
 ### Authors
 
-- Inspired from SearchKing Team designes
+- Inspired from SearchKing Team designs
 - Thanks to [SeedPuller](https://github.com/SeedPuller) for helping design and developing this project (Design)
 
 Maintained by Max Base
