@@ -17,7 +17,8 @@ C++  software to compress and archive files with Qt based UI. (Currently user-in
 
 ### Authors
 
-Main UI Designer is SearchKing Team, Thanks to [SeedPuller](https://github.com/SeedPuller) for helping design and developing this project (Design)
+- Inspired from SearchKing Team designes
+- Thanks to [SeedPuller](https://github.com/SeedPuller) for helping design and developing this project (Design)
 
 Maintained by Max Base
 
