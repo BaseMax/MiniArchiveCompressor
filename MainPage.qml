@@ -72,6 +72,7 @@ Page{
 
     FileDialog {
         id: filedialog
+        folder: shortcuts.home + "/Pictures"
         onAccepted: {
             var url = String(filedialog.fileUrl).split("/")
             mainmodel.prepareAndInsert(filedialog.fileUrl)

@@ -5,9 +5,10 @@ import QtQuick.Dialogs 1.2
 import API.FileProcessor 1.0
 
 Page {
+    id: secpage
     width: mainwindow.width
     height: mainwindow.height
-
+    property bool processing: false
     Keys.onDeletePressed: filelist.removeMode ? filelist.removeIndexList() : 0
 
     MyToolBar {
@@ -150,7 +151,7 @@ Page {
 
         MyButton {
             id: startbutton
-            enabled: filelist.removeMode ? false : true
+            enabled: filelist.removeMode || secpage.processing ? false : true
             anchors.right: cancelbutton.left
             anchors.rightMargin: 10
             anchors.verticalCenter: parent.verticalCenter
@@ -167,7 +168,8 @@ Page {
             font.pixelSize: 15
             onClicked:  {
                 filep.started = true
-                startbutton.enabled = false
+                secpage.processing = true
+//                startbutton.enabled = false
 //                filep.startprocess()
             }
         }
@@ -198,7 +200,8 @@ Page {
                     return
                 }
                 filep.started = false
-                startbutton.enabled = true
+//                startbutton.enabled = true
+                secpage.processing = false
                 progresscanvas.value = 0
                 progresscanvas.requestPaint()
             }
@@ -380,6 +383,7 @@ Page {
     }
     FileDialog {
         id: filedialog
+        folder: shortcuts.home + "/Pictures"
         onAccepted: {
             var url = String(filedialog.fileUrl).split("/")
 //            model1.insert(0, {filename: url[url.length - 1], size: "10GB", type: "JPG"})
