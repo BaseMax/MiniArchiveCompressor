@@ -15,6 +15,13 @@ C++  software to compress and archive files with Qt based UI. (Currently user-in
 - https://github.com/BaseMax/MiniPHPArchiveCompressor
 - https://github.com/BaseMax/ZMiniCArchiveCompressor
 
+### Dependency
+
+- C++
+- Qt, Qt Creator
+
+Tested on: Qt 5.12, 5.14 with Qt Creator 4.12.0
+
 ### Authors
 
 - Inspired from SearchKing Team designes
