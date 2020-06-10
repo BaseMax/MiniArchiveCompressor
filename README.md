@@ -2,6 +2,11 @@
 
 C++  software to compress and archive files with Qt based UI. (Currently user-interface ready)
 
+## Similar Projects
+
+- https://github.com/BaseMax/MiniPHPArchiveCompressor
+- https://github.com/BaseMax/ZMiniCArchiveCompressor
+
 ### Authors
 
 Thanks to [SeedPuller](github.com/SeedPuller) for helping design and developing this project (Design), with help of Max Base
