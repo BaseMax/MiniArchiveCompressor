@@ -31,6 +31,11 @@ Tested on: Qt 5.12, 5.14 with Qt Creator 4.12.0
 - Inspired from SearchKing Team designs
 - Thanks to [SeedPuller](https://github.com/SeedPuller) for helping design and developing this project (Design)
 
+### Credit
+
+- SeedPuller: Qt/UI Developer
+- Vida Azadi: Helping UI Design
+
 Maintained by Max Base
 
 ---------
